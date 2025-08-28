@@ -3,7 +3,14 @@ import {
   benefitIcon2,
   benefitIcon3,
   benefitIcon4,
+  benefitIcon5,
+  benefitIcon6,
+  benefitImage1,
   benefitImage2,
+  benefitImage3,
+  benefitImage4,
+  benefitImage5,
+  benefitImage6,
   chromecast,
   disc02,
   discord,
@@ -17,6 +24,7 @@ import {
   notification2,
   notification3,
   notification4,
+  notification5,
   notion,
   photoshop,
   plusSquare,
@@ -39,48 +47,42 @@ import {
 export const navigation = [
   {
     id: "0",
-    title: "Features",
-    url: "#features",
+    title: "Home",
+    url: "#",
   },
   {
     id: "1",
+    title: "Our Clients",
+    url: "#clients",
+  },
+  {
+    id: "2",
+    title: "Services",
+    url: "#features",
+  },
+  {
+    id: "3",
     title: "Pricing",
     url: "#pricing",
   },
   {
-    id: "2",
-    title: "How to use",
-    url: "#how-to-use",
-  },
-  {
-    id: "3",
-    title: "Roadmap",
-    url: "#roadmap",
-  },
-  {
     id: "4",
-    title: "New account",
-    url: "#signup",
-    onlyMobile: true,
-  },
-  {
-    id: "5",
-    title: "Sign in",
-    url: "#login",
+    title: "Contact",
+    url: "#contact",
     onlyMobile: true,
   },
 ];
 
 export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
 
-export const notificationImages = [notification4, notification3, notification2];
+export const notificationImages = [ notification4, notification3, notification2];
 
-export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
+export const companyLogos = [notification5, notification4, notification3, notification2];
 
 export const brainwaveServices = [
-  "Photo generating",
-  "Photo enhance",
-  "Seamless Integration",
+  "Mobile-optimized designs that convert visitors",
+  "Built-in SEO to attract more customers",
+  "Easy content updates with no tech skills needed",
 ];
 
 export const brainwaveServicesIcons = [
@@ -94,12 +96,13 @@ export const brainwaveServicesIcons = [
 export const roadmap = [
   {
     id: "0",
-    title: "Voice recognition",
-    text: "Enable the chatbot to understand and respond to voice commands, making it easier for users to interact with the app hands-free.",
-    date: "May 2023",
-    status: "done",
-    imageUrl: roadmap1,
-    colorful: true,
+title: "News Arpan",
+text: "News Arpan is a news website delivering timely and reliable updates across various topics.",
+date: "Jan 2024",
+status: "done",
+imageUrl: roadmap1,
+colorful: true,
+
   },
   {
     id: "1",
@@ -128,21 +131,26 @@ export const roadmap = [
 ];
 
 export const collabText =
-  "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
+"Our solutions are hosted on a cutting-edge infrastructure, ensuring 24/7 uptime for unmatched reliability and performance.";
 
 export const collabContent = [
   {
     id: "0",
-    title: "Seamless Integration",
-    text: collabText,
+    title: "99.99% Uptime",
   },
   {
     id: "1",
-    title: "Smart Automation",
+    title: "High-Performance Solutions",
+    
   },
   {
     id: "2",
     title: "Top-notch Security",
+  },
+  {
+    id: "3",
+    title: "Scalable Architecture",
+    
   },
 ];
 
@@ -208,35 +216,46 @@ export const collabApps = [
 export const pricing = [
   {
     id: "0",
-    title: "Basic",
-    description: "AI chatbot, personalized recommendations",
-    price: "0",
+    title: "Starter Website",
+    description: "Perfect for small businesses getting online",
+    price: "9999",
     features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
+      "Responsive single-page design",
+      "Basic animations & interactions",
+      "Free business email (1 account)",
+      "Social media integration (3 platforms)",
+      "Hosting on domain (1 year)",
+      "Basic SEO setup"
     ],
   },
   {
     id: "1",
-    title: "Premium",
-    description: "Advanced AI chatbot, priority support, analytics dashboard",
-    price: "9.99",
+    title: "Business Website",
+    description: "For growing businesses needing more impact",
+    price: "24999",
     features: [
-      "An advanced AI chatbot that can understand complex queries",
-      "An analytics dashboard to track your conversations",
-      "Priority support to solve issues quickly",
+      "Custom multi-page website",
+      "Advanced animations & micro-interactions",
+      " Business emails (5 accounts)",
+      "Full social media integration (5 platforms)",
+      "Custom domain (2 year included)",
+      "Advanced SEO optimization",
+      "Basic analytics dashboard"
+
     ],
   },
   {
     id: "2",
-    title: "Enterprise",
-    description: "Custom AI chatbot, advanced analytics, dedicated account",
+    title: "Enterprise Digital Suite",
+    description: "End-to-end digital transformation",
     price: null,
     features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
+      "Custom mobile app (iOS/Android)",
+      "Monthly social media management",
+      "Complete branding package (logo, banners)",
+      "Tech solutions",
+      "Priority 24/7 support",
+      "Advanced analytics portal",
     ],
   },
 ];
@@ -244,16 +263,16 @@ export const pricing = [
 export const benefits = [
   {
     id: "0",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Website Development",
+    text: "Custom, responsive, and high performing website that suits your business needs—all at budget friendly rates.",
     backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
-    imageUrl: benefitImage2,
+    imageUrl: benefitImage1,
   },
   {
     id: "1",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "Mobile App Development",
+    text: "We design and develop feature-rich, user-friendly mobile applications for iOS and Android.",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
@@ -261,68 +280,68 @@ export const benefits = [
   },
   {
     id: "2",
-    title: "Connect everywhere",
-    text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
+    title: "Graphics Designing Services",
+    text: "Eye-catching logos, banners, and brand visuals that leave a lasting impression and enhance brand recognition.",
     backgroundUrl: "./src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
-    imageUrl: benefitImage2,
+    imageUrl: benefitImage3,
   },
   {
     id: "3",
-    title: "Fast responding",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Social Media Management",
+    text: "Strategic content, targeted advertising, and audience engagement to maximize reach and conversions.",
     backgroundUrl: "./src/assets/benefits/card-4.svg",
     iconUrl: benefitIcon4,
-    imageUrl: benefitImage2,
+    imageUrl: benefitImage4,
     light: true,
   },
   {
     id: "4",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Tech Solutions",
+    text: "Smart, efficient systems for seamless inventory, payroll, invoicing, learning management and more —optimized for business growth",
     backgroundUrl: "./src/assets/benefits/card-5.svg",
-    iconUrl: benefitIcon1,
-    imageUrl: benefitImage2,
+    iconUrl: benefitIcon5,
+    imageUrl: benefitImage5,
   },
   {
     id: "5",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "Search Engine Optimization (SEO)",
+    text: "Optimized SEO strategies to improve search rankings, drive traffic, and enhance visibility.",
     backgroundUrl: "./src/assets/benefits/card-6.svg",
-    iconUrl: benefitIcon2,
-    imageUrl: benefitImage2,
+    iconUrl: benefitIcon6,
+    imageUrl: benefitImage6,
   },
 ];
 
 export const socials = [
   {
     id: "0",
-    title: "Discord",
+    title: "LinkedIn",
     iconUrl: discordBlack,
-    url: "#",
+    url: "https://www.linkedin.com/company/globsoft",
   },
   {
     id: "1",
     title: "Twitter",
     iconUrl: twitter,
-    url: "#",
+    url: "https://x.com/glob_soft",
   },
   {
     id: "2",
     title: "Instagram",
     iconUrl: instagram,
-    url: "#",
+    url: "https://www.instagram.com/globsoft/",
   },
   {
     id: "3",
-    title: "Telegram",
+    title: "YouTube",
     iconUrl: telegram,
-    url: "#",
+    url: "https://www.youtube.com/@globsoft",
   },
   {
     id: "4",
     title: "Facebook",
     iconUrl: facebook,
-    url: "#",
+    url: "https://www.facebook.com/globsoft/",
   },
 ];

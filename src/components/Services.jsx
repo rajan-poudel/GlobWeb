@@ -16,15 +16,15 @@ const Services = () => {
     <Section id="how-to-use">
       <div className="container">
         <Heading
-          title="Generative AI made for creators."
-          text="Brainwave unlocks the potential of AI-powered applications"
+          title="Your Success, Engineered in Code !"
+          text="Every line of code we write is optimized for your business objectives"
         />
 
         <div className="relative">
           <div className="relative z-1 flex items-center h-[39rem] mb-5 p-8 border border-n-1/10 rounded-3xl overflow-hidden lg:p-20 xl:h-[46rem]">
             <div className="absolute top-0 left-0 w-full h-full pointer-events-none md:w-3/5 xl:w-auto">
               <img
-                className="w-full h-full object-cover md:object-right"
+                className="w-full h-full object-cover md:object-right filter brightness-50"
                 width={800}
                 alt="Smartest AI"
                 height={730}
@@ -33,9 +33,9 @@ const Services = () => {
             </div>
 
             <div className="relative z-1 max-w-[17rem] ml-auto">
-              <h4 className="h4 mb-4">Smartest AI</h4>
+              <h4 className="h4 mb-4">Lightning-Fast Websites</h4>
               <p className="body-2 mb-[3rem] text-n-3">
-                Brainwave unlocks the potential of AI-powered applications
+              Custom-built sites that load instantly and rank higher on Google.
               </p>
               <ul className="body-2">
                 {brainwaveServices.map((item, index) => (
@@ -66,10 +66,10 @@ const Services = () => {
               </div>
 
               <div className="absolute inset-0 flex flex-col justify-end p-8 bg-gradient-to-b from-n-8/0 to-n-8/90 lg:p-15">
-                <h4 className="h4 mb-4">Photo editing</h4>
+                <h4 className="h4 mb-4">Mobile App Development</h4>
                 <p className="body-2 mb-[3rem] text-n-3">
-                  Automatically enhance your photos using our AI app&apos;s
-                  photo editing feature. Try it now!
+                Premium native apps with flawless performance and engagement-driven design.
+                Ready to launch?
                 </p>
               </div>
 
@@ -78,10 +78,10 @@ const Services = () => {
 
             <div className="p-4 bg-n-7 rounded-3xl overflow-hidden lg:min-h-[46rem]">
               <div className="py-12 px-4 xl:px-8">
-                <h4 className="h4 mb-4">Video generation</h4>
+                <h4 className="h4 mb-4">Design That Drives Demand</h4>
                 <p className="body-2 mb-[2rem] text-n-3">
-                  The world’s most powerful AI photo and video art generation
-                  engine. What will you create?
+                Unforgettable branding that stops scrolls and starts conversations.
+Ready to stand out?
                 </p>
 
                 <ul className="flex items-center justify-between">
@@ -111,7 +111,7 @@ const Services = () => {
               <div className="relative h-[20rem] bg-n-8 rounded-xl overflow-hidden md:h-[25rem]">
                 <img
                   src={service3}
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover brightness-50"
                   width={520}
                   height={400}
                   alt="Scary robot"

@@ -56,6 +56,7 @@ import notification1 from "./notification/image-1.png";
 import notification2 from "./notification/image-2.png";
 import notification3 from "./notification/image-3.png";
 import notification4 from "./notification/image-4.png";
+import notification5 from "./notification/image-5.png";
 
 import benefitCard1 from "./benefits/card-1.svg";
 import benefitCard2 from "./benefits/card-2.svg";
@@ -67,7 +68,14 @@ import benefitIcon1 from "./benefits/icon-1.svg";
 import benefitIcon2 from "./benefits/icon-2.svg";
 import benefitIcon3 from "./benefits/icon-3.svg";
 import benefitIcon4 from "./benefits/icon-4.svg";
-import benefitImage2 from "./benefits/image-2.png";
+import benefitIcon5 from "./benefits/icon-5.svg";
+import benefitIcon6 from "./benefits/icon-6.svg";
+import benefitImage1 from "./benefits/image-1.jpg";
+import benefitImage2 from "./benefits/image-2.jpg";
+import benefitImage3 from "./benefits/image-3.jpg";
+import benefitImage4 from "./benefits/image-4.jpg";
+import benefitImage5 from "./benefits/image-5.jpg";
+import benefitImage6 from "./benefits/image-6.jpg";
 
 import discordBlack from "./socials/discord.svg";
 import facebook from "./socials/facebook.svg";
@@ -128,6 +136,7 @@ export {
   notification2,
   notification3,
   notification4,
+  notification5,
   benefitCard1,
   benefitCard2,
   benefitCard3,
@@ -138,7 +147,14 @@ export {
   benefitIcon2,
   benefitIcon3,
   benefitIcon4,
+  benefitIcon5,
+  benefitIcon6,
+  benefitImage1,
   benefitImage2,
+  benefitImage3,
+  benefitImage4,
+  benefitImage5,
+  benefitImage6,
   discordBlack,
   facebook,
   instagram,

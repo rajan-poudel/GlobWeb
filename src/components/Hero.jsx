@@ -23,9 +23,9 @@ const Hero = () => {
       <div className="container relative" ref={parallaxRef}>
         <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem]">
           <h1 className="h1 mb-6">
-            Explore the Possibilities of&nbsp;AI&nbsp;Chatting with {` `}
+          Your Vision, Our Code &nbsp;!&nbsp;{` `}
             <span className="inline-block relative">
-              Brainwave{" "}
+              GlobWeb{" "}
               <img
                 src={curve}
                 className="absolute top-full left-0 w-full xl:-mt-2"
@@ -36,10 +36,10 @@ const Hero = () => {
             </span>
           </h1>
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
-            Unleash the power of AI within Brainwave. Upgrade your productivity
-            with Brainwave, the open AI chat app.
+          We empower businesses with Smart & Affordable Tech Solutions <br />
+          —without breaking your bank account!
           </p>
-          <Button href="/pricing" white>
+          <Button href="#pricing" white>
             Get started
           </Button>
         </div>
@@ -72,7 +72,7 @@ const Hero = () => {
                 <ScrollParallax isAbsolutelyPositioned>
                   <Notification
                     className="hidden absolute -right-[5.5rem] bottom-[11rem] w-[18rem] xl:flex"
-                    title="Code generation"
+                    title="Ordered Website"
                   />
                 </ScrollParallax>
               </div>
@@ -93,7 +93,7 @@ const Hero = () => {
           <BackgroundCircles />
         </div>
 
-        <CompanyLogos className="hidden relative z-10 mt-20 lg:block" />
+        <CompanyLogos className="block relative z-10 mt-20" />
       </div>
 
       <BottomLine />
